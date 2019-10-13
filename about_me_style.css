@@ -1,0 +1,144 @@
+/*variable*/
+/*layout*/
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "nav" "header" "content" "footer";
+  -ms-grid-rows: 10% 20% 60% 10%;
+      grid-template-rows: 10% 20% 60% 10%;
+  height: 120vh;
+}
+
+#nav {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: nav;
+}
+
+#header {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: header;
+}
+
+#content {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: content;
+}
+
+#footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
+
+/*body*/
+body {
+  background-color: #383a3f;
+  color: #FFFFF3;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*nav*/
+.nav-link {
+  color: #FFFFF3;
+  font-size: 1.5vw;
+}
+
+.nav-link:hover {
+  color: #E3E36A;
+}
+
+#style1, #style2 {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: #E3E36A;
+}
+
+/*header*/
+#style2 {
+  font-size: 7vw;
+}
+
+/*content*/
+.content {
+  margin-left: 10%;
+}
+
+.card {
+  color: #1F2124;
+  text-align: center;
+  background-color: #E3E36A;
+  width: 30vw;
+  height: 30vw;
+}
+
+.card-body {
+  padding: 20%;
+}
+
+.card-title {
+  font-size: 2.5vw;
+}
+
+.card-text {
+  font-size: 1.5vw;
+}
+
+#card1 {
+  background-color: rgba(31, 33, 36, 0.5);
+}
+
+/*footer*/
+#address {
+  color: #1F2124;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+/*media-query*/
+@media (min-width: 360px) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "nav" "header" "content" "footer";
+    -ms-grid-rows: 10% 20% 60% 10%;
+        grid-template-rows: 10% 20% 60% 10%;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "nav" "header" "content" "footer";
+    -ms-grid-rows: 10% 20% 60% 10%;
+        grid-template-rows: 10% 20% 60% 10%;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "nav" "header" "content" "footer";
+    -ms-grid-rows: 10% 20% 60% 10%;
+        grid-template-rows: 10% 20% 60% 10%;
+    height: 120vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "nav" "header" "content" "footer";
+    -ms-grid-rows: 10% 20% 60% 10%;
+        grid-template-rows: 10% 20% 60% 10%;
+    height: 200vh;
+  }
+}
+/*# sourceMappingURL=about_me_style.css.map */

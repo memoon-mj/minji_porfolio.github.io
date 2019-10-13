@@ -1,0 +1,268 @@
+/*variable*/
+/*layout*/
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "nav" "header" "introduce" "project1" "project2" "project3" "footer";
+  -ms-grid-rows: 5% 18% 19% 19% 19% 19% 1%;
+      grid-template-rows: 5% 18% 19% 19% 19% 19% 1%;
+  height: 600vh;
+}
+
+#nav {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: nav;
+}
+
+#header {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: header;
+}
+
+#project1 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: project1;
+}
+
+#project2 {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: project2;
+}
+
+#project3 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: project3;
+}
+
+#footer {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  grid-area: footer;
+}
+
+/*body*/
+body {
+  background-color: #383a3f;
+  color: #FFFFF3;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*nav*/
+.nav-link {
+  color: #FFFFF3;
+  font-size: 1.5vw;
+}
+
+.nav-link:hover {
+  color: #E3E36A;
+}
+
+#style1, #style2 {
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: #E3E36A;
+}
+
+/*header*/
+#style2 {
+  font-size: 7vw;
+  float: right;
+}
+
+img {
+  width: 45vw;
+  height: 45vw;
+}
+
+/*introduce**/
+.introduce {
+  margin: 0;
+}
+
+#introduce-h1 {
+  text-align: end;
+}
+
+.introduce > * {
+  color: #FFFFF3;
+  font-weight: bold;
+  font-size: 7vw;
+  text-shadow: 0.05vw 0.05vw 0.05vw #FFFFF3;
+}
+
+.color1 {
+  color: #011638;
+}
+
+.color2 {
+  color: #2E294E;
+}
+
+.color3 {
+  color: #9055A2;
+}
+
+/*project*/
+.d-flex > * {
+  width: 45vw;
+  height: 45vw;
+  margin: 1vw;
+}
+
+.p1 {
+  background-color: #1F2124;
+  font-size: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10%;
+}
+
+.p1 > * {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.p2 {
+  text-align: center;
+}
+
+.mb-0 {
+  font-size: 3vw;
+}
+
+dl {
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.col-sm-3 {
+  color: #7C7877;
+  font-size: 2.5vw;
+}
+
+.col-sm-9 {
+  font-size: 1.5vw;
+}
+
+#tumbler, #image {
+  background-size: 100%;
+}
+
+#holdon_logo {
+  width: 15vw;
+  height: 6vw;
+}
+
+.blockquote {
+  font-size: 2.5vw;
+}
+
+#QRcode {
+  width: 10vw;
+  height: 10vw;
+}
+
+.image {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  height: 100%;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.middle {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  width: 45vw;
+  height: 45vw;
+  position: relative;
+  left: 50%;
+  bottom: 50%;
+  padding: 20%;
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.p2:hover .image {
+  opacity: 0.3;
+}
+
+.p2:hover .middle {
+  opacity: 1;
+}
+
+.span2 {
+  font-size: 4vw;
+}
+
+.p {
+  font-size: 2.5vw;
+}
+
+/*footer*/
+#address {
+  color: #1F2124;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+/*media-query*/
+@media (min-width: 360px) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "nav" "header" "introduce" "project1" "project2" "project3" "footer";
+    -ms-grid-rows: 5% 18% 19% 19% 19% 19% 1%;
+        grid-template-rows: 5% 18% 19% 19% 19% 19% 1%;
+    height: 200vh;
+  }
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "nav" "header" "introduce" "project1" "project2" "project3" "footer";
+    -ms-grid-rows: 5% 18% 19% 19% 19% 19% 1%;
+        grid-template-rows: 5% 18% 19% 19% 19% 19% 1%;
+    height: 300vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "nav" "header" "introduce" "project1" "project2" "project3" "footer";
+    -ms-grid-rows: 5% 18% 19% 19% 19% 19% 1%;
+        grid-template-rows: 5% 18% 19% 19% 19% 19% 1%;
+    height: 500vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: "nav" "header" "introduce" "project1" "project2" "project3" "footer";
+    -ms-grid-rows: 5% 18% 19% 19% 19% 19% 1%;
+        grid-template-rows: 5% 18% 19% 19% 19% 19% 1%;
+    height: 600vh;
+  }
+}
+/*# sourceMappingURL=index_style.css.map */

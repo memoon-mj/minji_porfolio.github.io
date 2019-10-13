@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="about_me_style.css">
+  <title>Document</title>
+</head>
+<body>
+    <div class = "wrapper">
+        <nav class="nav nav justify-content-end">
+            <a class = "nav-link active" href ="index.html">HOME</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ABOUT ME</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="nav_about_me.html">I'm MINJI CHOI</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal1">INSTAGRAM</a>
+            </div>
+            <a class = "nav-link active" href ="#" data-toggle="modal" data-target="#exampleModal">CONTACT</a>
+            <a class = "nav-link active" href ="#" id = "style1">🌙</a>
+          </nav>
+        
+              <!-- Modal About me -->
+              <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-label="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          <table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Instagram</th>
+                                  <th scope="col">@wannameet__u​</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <th scope="row"></th>
+                                  <td>my daily log​</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        <!-- Modal contact-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-label="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Contact me!</th>
+                            <th scope="col">컨택을 원하거나 궁금한 것이 있다면 언제든지 환영입니다!​</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Mail</th>
+                            <td>memoon.mj@gmail.com​</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Instagram DM</th>
+                            <td>@wannameet__u</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class = "header" id = "header">
+          <h1 id = style2>About me</h1>
+        </div>
+        <div class = "content" id = "content">
+            <div class="card-deck">
+                <div class="card rounded-circle">
+                  <div class="card-body">
+                    <h5 class="card-text">데이터를 만지는 일을 하고 싶은 최민지입니다.</h5>
+                  </div>
+                </div>
+                <div class="card rounded-circle">
+                    <div class="card-body">
+                      <h5 class="card-title">MY major</h5>
+                      <p class="card-text">Data Technology<br><small class="text-muted">Myongji University</small>
+                      </p>
+                    </div>
+                  </div>
+                <div class="card rounded-circle">
+                  <div class="card-body">
+                    <h5 class="card-title">study</h5>
+                    <p class="card-text" id = card_style>
+                      -bigdata programing<br>
+                      -algorithm<br>
+                      -OS<br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class = "footer" id = "footer"><address id=  "address">Minji, Choi<br>
+          memoon.mj@gmail.com</address></div>
+    </div>
+ <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
