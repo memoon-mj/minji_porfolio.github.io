@@ -15,17 +15,23 @@
   <body>
     <div class = "wrapper">
         <nav class="nav justify-content-end" id = "nav">
+          <li class = 'nav-item'>
             <a class = "nav-link active" href ="index.html">HOME</a>
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            ABOUT ME</a>
+          </li>
+          <li class = 'nav-item dropdown'>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT ME</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="nav_about_me.html">I'm MINJI CHOI</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal1">INSTAGRAM</a>
             </div>
-
+          </li>
+          <li class = "nav-item">
             <a class = "nav-link active" href ="#" data-toggle="modal" data-target="#exampleModal">CONTACT</a>
+          </li>
+          <li class = 'nav-item'>
             <a class = "nav-link active" href ="#" id = "style1">🌙</a>
+          </li>
           </nav>
             <!-- Modal About me -->
             <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-label="exampleModalLabel" aria-hidden="true">
@@ -81,7 +87,6 @@
                           <th scope="row">Instagram DM</th>
                           <td>@wannameet__u</td>
                         </tr>
-
                       </tbody>
                     </table>
               </div>
@@ -90,9 +95,9 @@
       </div>
       <div class = "header" id = "header">
           <div class="d-flex d1 justify-content-center">
-              <div class="p-2"><img src="kwanganli1.png" class="rounded-circle" alt="sea">
+              <div class="p-2"><img src="images/kwanganli1.png" class="rounded-circle" alt="sea">
               </div>              
-              <div class="p-2"><img src="kwanganli2.png" class="rounded-circle" alt="sea">
+              <div class="p-2"><img src="images/kwanganli2.png" class="rounded-circle" alt="sea">
               </div>
             </div>
       </div>
@@ -115,13 +120,13 @@
                   <dt class = "col-sm-3">Role</dt>
                   <dd class = "col-sm-9">developing apps for android, project planning<br></dd>
                   <dt class = "col-sm-3">Date</dt>
-                  <dd class = "col-sm-9">2018.02</dd>
+                  <dd class = "col-sm-9">2019.02</dd>
                 </dl>
             </div>              
             <div class="p-2 p2">
-                <img src = "tumbler1.png" class = "image" alt = "tumbler">
+                <img src = "images/tumbler1.png" class = "image" alt = "tumbler">
                 <div class="middle"><span class = span2>scan your tumbler!</span><br>
-                <img src = "QRcode.png" id = "QRcode" alt = "QRcode">
+                <img src = "images/holdon_QRcode.png" id = "QRcode" alt = "QRcode">
                 <p class = "p">#텀블러스캔어플 #텀블러대여 #카페</p>
                 </div>
             </div>
@@ -140,8 +145,9 @@
                   </dl>
             </div>              
             <div class="p-2 p2 shadow-lg">
-                <img src = "screen.png" class="image" alt = "app screen">
+                <img src = "images/screen.png" class="image" alt = "app screen">
                 <div class="middle"><span class = span2>잘먹고사니</span><br><br>
+                <img src = "images/uxdesign_QRcode.png" id = "QRcode" alt = "QRcode">
                 <p class = "p">#음식 #이미지인식 #영양관리어플</p>
                 </div>
             </div>
@@ -150,13 +156,23 @@
       <div class = "project3" id = "project3">
         <div class="d-flex d2 justify-content-center">
             <div class="p-2 p1">
-                <blockquote class="blockquote text-right">
-                </blockquote>
+              <blockquote class="blockquote text-right">
+                <p class="mb-0">googlemap populartime data analysis</p>
+                <footer class="blockquote-footer">bigdataprogramming class, project</footer>
+              </blockquote>
+            <dl class = "row">
+                <dt class = "col-sm-3">Dev tools</dt>
+                <dd class = "col-sm-9">GCP Bigquery, Python</dd>
+                <dt class = "col-sm-3">Date</dt>
+                <dd class = "col-sm-9">2019.09~</dd>
+              </dl>
             </div>              
             <div class="p-2 p2">
-              <img src = "questionmark.png" class="image" alt = "questionmark">  
-              <div class="middle">What's next?!</div>
-            </div>
+              <img src = "images/questionmark.png" class="image" alt = "questionmark">  
+              <div class="middle"><span class = span2>플레이스 추천</span><br><br>
+                <p class = "p">#bigquery #데이터 시각화</p>
+                <a href ='https://github.com/memoon-mj/Hadoop/blob/master/README.md'>link</a>
+              </div>
         </div>
       </div>
       <div class = "footer" id = "footer"><address id=  "address">Minji, Choi<br>

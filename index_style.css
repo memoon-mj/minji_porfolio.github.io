@@ -3,7 +3,13 @@
 .wrapper {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "nav" "header" "introduce" "project1" "project2" "project3" "footer";
+      grid-template-areas: "nav"
+ "header"
+ "introduce"
+ "project1"
+ "project2"
+ "project3"
+ "footer";
   -ms-grid-rows: 5% 18% 19% 19% 19% 19% 1%;
       grid-template-rows: 5% 18% 19% 19% 19% 19% 1%;
   height: 600vh;
@@ -146,10 +152,12 @@ dl {
 .col-sm-3 {
   color: #7C7877;
   font-size: 2.5vw;
+  margin-bottom:1vw;
 }
 
 .col-sm-9 {
   font-size: 1.5vw;
+  margin-bottom:1vw;
 }
 
 #tumbler, #image {
@@ -226,7 +234,13 @@ dl {
   .wrapper {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "nav" "header" "introduce" "project1" "project2" "project3" "footer";
+        grid-template-areas: "nav"
+ "header"
+ "introduce"
+ "project1"
+ "project2"
+ "project3"
+ "footer";
     -ms-grid-rows: 5% 18% 19% 19% 19% 19% 1%;
         grid-template-rows: 5% 18% 19% 19% 19% 19% 1%;
     height: 200vh;
@@ -237,7 +251,13 @@ dl {
   .wrapper {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "nav" "header" "introduce" "project1" "project2" "project3" "footer";
+        grid-template-areas: "nav"
+ "header"
+ "introduce"
+ "project1"
+ "project2"
+ "project3"
+ "footer";
     -ms-grid-rows: 5% 18% 19% 19% 19% 19% 1%;
         grid-template-rows: 5% 18% 19% 19% 19% 19% 1%;
     height: 300vh;
@@ -248,7 +268,13 @@ dl {
   .wrapper {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "nav" "header" "introduce" "project1" "project2" "project3" "footer";
+        grid-template-areas: "nav"
+ "header"
+ "introduce"
+ "project1"
+ "project2"
+ "project3"
+ "footer";
     -ms-grid-rows: 5% 18% 19% 19% 19% 19% 1%;
         grid-template-rows: 5% 18% 19% 19% 19% 19% 1%;
     height: 500vh;
@@ -259,7 +285,13 @@ dl {
   .wrapper {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "nav" "header" "introduce" "project1" "project2" "project3" "footer";
+        grid-template-areas: "nav"
+ "header"
+ "introduce"
+ "project1"
+ "project2"
+ "project3"
+ "footer";
     -ms-grid-rows: 5% 18% 19% 19% 19% 19% 1%;
         grid-template-rows: 5% 18% 19% 19% 19% 19% 1%;
     height: 600vh;
