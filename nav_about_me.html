@@ -14,19 +14,25 @@
 </head>
 <body>
     <div class = "wrapper">
-        <nav class="nav nav justify-content-end">
+        <nav class="nav justify-content-end" id = "nav">
+          <li class = 'nav-item'>
             <a class = "nav-link active" href ="index.html">HOME</a>
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            ABOUT ME</a>
+          </li>
+          <li class = 'nav-item dropdown'>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT ME</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="nav_about_me.html">I'm MINJI CHOI</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal1">INSTAGRAM</a>
             </div>
+          </li>
+          <li class = "nav-item">
             <a class = "nav-link active" href ="#" data-toggle="modal" data-target="#exampleModal">CONTACT</a>
+          </li>
+          <li class = 'nav-item'>
             <a class = "nav-link active" href ="#" id = "style1">🌙</a>
+          </li>
           </nav>
-        
               <!-- Modal About me -->
               <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-label="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
@@ -94,23 +100,24 @@
             <div class="card-deck">
                 <div class="card rounded-circle">
                   <div class="card-body">
-                    <h5 class="card-text">데이터를 만지는 일을 하고 싶은 최민지입니다.</h5>
+                    <h5 class="card-text"><br>데이터를 만지는 일을 하고 싶은 최민지입니다.</h5>
                   </div>
                 </div>
                 <div class="card rounded-circle">
                     <div class="card-body">
                       <h5 class="card-title">MY major</h5>
-                      <p class="card-text">Data Technology<br><small class="text-muted">Myongji University</small>
+                      <p class="card-text">convergence software, data technology<br><small class="text-muted">Myongji University</small>
                       </p>
                     </div>
-                  </div>
+                </div>
                 <div class="card rounded-circle">
                   <div class="card-body">
                     <h5 class="card-title">study</h5>
                     <p class="card-text" id = card_style>
-                      -bigdata programing<br>
-                      -algorithm<br>
-                      -OS<br>
+                      -bigdata programing:Hadoop<br>
+                      -web programming:Node.js, Express, javascript<br>
+                      -UXdesig:design thinking
+                      -R
                     </p>
                   </div>
                 </div>
